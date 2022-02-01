@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\luizf\OneDrive\Área de Trabalho\Herança\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4292936301.index
+1744135897.index
+481470759.index
+1849474613.index
+889766275.index
+4001387661.index

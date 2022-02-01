@@ -1,0 +1,30 @@
+package herança;
+
+public class tabela {
+	
+	public static void main(String[] args) {
+	
+	// Criação dos vetores, já com os dados inicializados
+			int nome[] = { "Mussarela", "Calabresa" , "Margherita", "Portuguesa", "Bacon" }
+			double altura[] = { 21.99, 21.99, 19.99, 27.99, 25.99 }
+
+			// Cria o cabeçalho da tabela
+			System.out.println	("--------------------\n")(system.in);
+			system.out.println ("       TABELA       \n")
+			system.out.println ("--------------------\n")
+
+			/* Perocorre os vetores exibindo as informações. Note que as informações
+			 * são relacionadas, colocando-as na mesmas na mesma posição em ambos os 
+			 * vetores. Por exemplo, se quiséssemos incluir a idade de cada pessoa,
+			 * criaríamos mais um vetor do tipo inteiro e a idade de Andre, seria 
+			 * armazenada na posição 0 do novo vetor, a idade de Thiago, na posição 1, 
+			 * a de Bruno na posição 2, e assim por diante.
+			 */		  
+			for (inteiro posicao = 0; posicao < 5; posicao++)
+			{
+				// O caracter especial \t serve para escrever uma tabulação
+				escreva (nome[posicao], "\t\t", altura [posicao], "\n");
+			}
+		}
+
+}

@@ -1,0 +1,30 @@
+package herança;
+
+public class ResultadoDosAnimais {
+	
+	public static void main (String[] args) {
+		cachorro cachorro=new cachorro();
+		cavalo cavalo = new cavalo();
+		preguica preguica = new preguica();
+		
+		cachorro.setAcao("Correr");
+		cachorro.setNome("Sansão");
+		cachorro.setIdade(1);
+		
+		cavalo.setAcao("Disparar");
+		cavalo.setNome("Pe de Pano");
+		cavalo.setIdade(5);
+		
+		
+		preguica.setAcao("Subir em arvore");
+		preguica.setNome("Flecha");
+		preguica.setIdade(13);
+		
+		System.out.println("Nome do cachorro:"+cachorro.getNome()+"				Idade do cachorro:"+cachorro.getNome()+"			Ação do cachorro"+cachorro.getAcao());
+		System.out.println("Nome do cavalo:"+cavalo.getNome()+"					Idade do cavalo:"+cavalo.getNome()+"				Ação do cavalo"+cavalo.getAcao());
+		System.out.println("Nome do preguica:"+preguica.getNome()+"				Idade do preguica:"+preguica.getNome()+"			Ação do preguica"+preguica.getAcao());
+		
+		
+	}
+
+}

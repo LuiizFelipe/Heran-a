@@ -1,0 +1,22 @@
+package herança;
+
+public class TabelaPizzria {
+	
+	
+	public static void main (String[] args) {
+	// Criação dos vetores, já com os dados inicializados
+			int nome[] = {("Mussarela", "Calabresa" , "Margherita", "Portuguesa", "Bacon")};
+			double altura[] = { 21.99, 21.99, 19.99, 27.99, 25.99 };
+
+			// Cria o cabeçalho da tabela
+			System.out.println ("--------------------\n");
+			System.out.println ("       TABELA       \n");
+			System.out.println("--------------------\n");
+  
+			for (int posicao = 0; posicao < 5; posicao++)
+			{
+				System.out.println(nome[posicao]);
+				
+			}
+		}
+	}
